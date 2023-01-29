@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "The textures to see the tools",
+    "name": "Modding Tools §3(r)",
+    "uuid": "1acf83bf-0ed8-40f3-8be3-e0f2a053e5c2",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 50]
+  },
+  "modules": [
+    {
+      "description": "Modding Tools §3(r)",
+      "type": "resources",
+      "uuid": "eb21058e-ce54-4b1a-941a-4a6e1886bd90",
+      "version": [0, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "modtools:water_filler",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": true
+    },
+
+    /*
+        "component_groups": {
+            "modtools:propagate": {
+                "minecraft:spawn_entity": {
+                    "entities":[
+                        {
+                            "filters": [{
+                                "test": "has_tag", "value": "north"
+                            }],
+                            "max_wait_time": 10,
+                            "num_to_spawn": 1,
+                            "should_leash": false,
+                            "single_use": false,
+                            "spawn_entity": "modtools:water_filler",
+                            "spawn_event": "minecraft:entity_born"
+                            
+        }
+    ]
+}
+            }
+        },
+        */
+
+    "components": {
+      "minecraft:can_fly": {
+        "value": true
+      },
+      "minecraft:navigation.fly": {},
+      "minecraft:movement.fly": {
+        "max_turn": 30
+      },
+      "minecraft:behavior.move_to_block": {
+        "goal_radius": 0.5,
+        "search_height": 10,
+        "on_reach": "minecraft"
+      }
+    }
+  }
+}

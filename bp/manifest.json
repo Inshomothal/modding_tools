@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "A set of tools to help building go faster",
+    "name": "Modding Tools §4(b)",
+    "uuid": "2aa87a5e-6c50-405a-8faf-9f71530e1aaa",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 50]
+  },
+  "modules": [
+    {
+      "description": "Modding Tools §4(b)",
+      "type": "data",
+      "uuid": "934d8dd1-8565-4762-a0d4-ffc3b0eef0f6",
+      "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "1acf83bf-0ed8-40f3-8be3-e0f2a053e5c2",
+      "version": [0, 0, 1]
+    }
+  ]
+}
